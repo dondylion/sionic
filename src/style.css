@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Raleway';
+}
+
+input {
+    all: unset;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.layouts {
+    min-height: 100vh;
+}
+
+.main-container {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #F8F8F8;
+    padding: 32px 125px 35px 50px;
+    height: 20vh;
+}
+
+.react-logo {
+    font-size: 41px;
+    font-weight: 700;
+    font-family: 'Montserat'
+}
+
+.footer-bottom {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #8D8D8E;
+    margin-top: 60px;
+}
+
+.footer-bottom span {
+    margin: 0 10px;
+}
+
+.footer-top {
+    font-size: 16px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links div {
+    margin-left: 30px;
+}
+
+.app-links {
+    margin: 10px 0 0 0 !important;
+}
+
+.app {
+    height: 32px;
+}
+
+.social {
+    height: 28px;
+}
+
+.social-links {
+    width: 60%;
+}
+
+.side-menu {
+    border-left: 1px solid #F0F4FB;
+    width: min-content;
+    padding: 27px 24px 0 16px;
+    height: 100%;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.content {
+   min-height: 71vh;
+}
+
+.children {
+    flex-grow: 1;
+}
+
+.get-free {
+    border: 1px solid #FF2D87;
+    border-radius: 20px;
+    padding: 20px 20px 20px 97px;
+    margin-bottom: 33px;
+    position: relative;
+}
+
+.get-free-description {
+    color: #2967FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.get-free-button {
+    background-color: #2967FF;
+    border-radius: 51px;
+    color: white;
+    padding: 11px 0 10px 0;
+    width: 194px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.get-free-image {
+    position: absolute;
+    height: 82px;
+    right: 233px;
+    top: 25px;
+}
+
+.side-image {
+    margin-bottom: 33px;
+    height: 143px;
+    width: 310px;
+    border-radius: 20px;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+}
+
+.side-image div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    text-align: center;
+}
+
+.image-1 {
+    background-image: url('./Images/Image1.png');
+}
+
+.image-2 {
+    background-image: url('./Images/Image2.png');
+}
+
+.header {
+    margin: 20px 50px;
+    align-items: center;
+}
+
+.header .react-logo {
+    font-size: 37px;
+}
+
+.circle {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.busket {
+    border: 1px solid #727280;
+}
+
+.avatar {
+    background-image: url('./Images/avatar.png');
+    background-size: cover;
+}
+
+.location {
+    justify-content: center;
+    color: #727280;
+    font-size: 14px;
+    align-items: center;
+}
+
+.search {
+    width: 550px;
+    border: 1px solid #F0F4FB;
+    border-radius: 36px;
+    padding: 4px 4px 4px 20px;
+}
+
+.search-button {
+    background-color: #F0F4FB;
+    border-radius: 41px;
+    width: 94px;
+    height: 30px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.search input {
+    border: none;
+}
+
+.busket {
+    text-align: center;
+    font-size: 20px;
+}
+
+.children {
+    padding: 10px 20px 50px 50px;
+}
+
+.category-pageheader {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2D2D2F;
+}
+
+.category {
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+    width: fit-content;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 20px 20px 0 0;
+    justify-content: strectch;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.category:hover {
+    box-shadow: 2px 2px 5px #2D2D2F;
+}
+
+.categories {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.product {
+    width: 200px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.to-busket {
+    width: 100%;
+    border: 1px solid #2967FF;
+    border-radius: 36px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: #2967FF;
+    cursor: pointer;
+}
+
+.to-busket:hover {
+    color: black;
+    border: 1px solid black;
+    
+}
